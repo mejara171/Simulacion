@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\#1-Interpolación y vectores\Scripts\TestingVector.cs" />
+    <Compile Include="Assets\#2 Velocidad\Scripts\Velocity.cs" />
     <Compile Include="Assets\#1-Interpolación y vectores\Scripts\Vector.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -353,6 +353,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/#1-Interpolación y vectores/Scripts/TestingVector.cs"
 "Assets/#1-Interpolación y vectores/Scripts/Vector.cs"
+"Assets/#2 Velocidad/Scripts/Velocity.cs"
 -langversion:9.0
 
 /deterministic
