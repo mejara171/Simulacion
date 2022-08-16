@@ -64,6 +64,11 @@ public struct MyVector
         return new Vector3(a.x, a.y, 0);
     }
 
+    public static implicit operator MyVector(Vector3 a)
+    {
+        return new MyVector(a.x, a.y);
+    }
+
     public MyVector Mix(MyVector b, float d)
     {
         return (this + (b-this) * d);
