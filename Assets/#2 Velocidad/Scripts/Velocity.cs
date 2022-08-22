@@ -8,7 +8,10 @@ public class Velocity : MonoBehaviour
     /*  [SerializeField] MyVector displacement;*/
     [SerializeField] private MyVector velocity;
     [SerializeField] private MyVector accelaration;
+    [SerializeField] private MyVector force;
+
     private MyVector displacement;
+
 
     private int NowAcceleration = 0;
     private MyVector[] accelerations = new MyVector[4]{new MyVector(0f, -9.8f), new MyVector(9.8f, 0f), new MyVector(0f, 9.8f) , new MyVector(-9.8f, 0f) };
@@ -33,10 +36,12 @@ public class Velocity : MonoBehaviour
         velocity.Draw(position, Color.blue);
         Debug.Log(Time.deltaTime);
 
+          
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             velocity *= 0;
-            accelaration = accelerations[(NowAcceleration++) % accelerations.Length];
+            accelaration = accelerations[(++NowAcceleration) % accelerations.Length];
         }
     }
 

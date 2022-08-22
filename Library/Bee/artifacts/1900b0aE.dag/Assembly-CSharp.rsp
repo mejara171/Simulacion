@@ -354,6 +354,8 @@
 "Assets/#1-Interpolación y vectores/Scripts/TestingVector.cs"
 "Assets/#1-Interpolación y vectores/Scripts/Vector.cs"
 "Assets/#2 Velocidad/Scripts/Velocity.cs"
+"Assets/#3 Forces/Scripts/Movement.cs"
+"Assets/#3 Forces/Scripts/MovementForce.cs"
 -langversion:9.0
 
 /deterministic

@@ -54,6 +54,11 @@ public struct MyVector
         return a.Scale(b);
     }
 
+    public static MyVector operator /(MyVector a, float b)
+    {
+        return a.Scale(1f/b);
+    }
+
     public static MyVector operator*(float b, MyVector a)
     {
         return a.Scale(b);
