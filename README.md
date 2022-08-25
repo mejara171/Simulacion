@@ -1,5 +1,5 @@
 # Ejercicio 1: 
-Vectores e interpolación. Dos vectores desde el origen con cabeza variable y un producto cruz modificable entre el ángulo de los dos vectores. 
+Vectores e interpolación. Dos vectores desde el origen con cabeza variable y una distancia entre las cabezas variable a través de un slider. 
 ![Animation](https://user-images.githubusercontent.com/68623374/186724169-421665cb-05d6-4c35-8e42-e8fb02d627a8.gif)
 
 
