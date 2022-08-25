@@ -7,6 +7,8 @@ public class MovementForce : MonoBehaviour
     [SerializeField] private float mass = 1f;
     [SerializeField] private MyVector wind;
     [SerializeField] private MyVector gravity;
+
+    [Header("")]
     [Range(0,1)][SerializeField] private float dampingFactor = 1;
 
     private MyVector position;

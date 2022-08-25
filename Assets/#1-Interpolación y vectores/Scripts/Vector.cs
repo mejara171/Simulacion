@@ -11,11 +11,49 @@ public struct MyVector
     public float x;
     public float y;
 
+    //Cuando se tiene un get, el valor solo se puede leer, cuando se tiene un set, además de leer, también se puede escribir
+    //=> used in property is an expression body . Basically a shorter and cleaner way to write a property with only getter
+    public float magnitude => Mathf.Sqrt(x * x + y * y);
+
+    public MyVector normalized
+    {
+         get
+        {
+            float distance = magnitude;
+
+            if (distance <0.0001)
+            {
+                return new MyVector(0, 0);
+
+            }
+            else
+            {
+                return new MyVector(x / distance, y / distance);
+            }
+        }
+    }
+
     public MyVector(float x, float y)
     {
         this.x = x;
         this.y = y;
 
+    }
+
+
+    public void Normalize()
+    {
+        float magnitudeCache = magnitude;
+  
+
+        if (magnitudeCache < 0.0001)
+        {
+            x = 0;
+            y = 0;
+
+        }
+        x = x / magnitudeCache;
+        y = y / magnitudeCache;
     }
 
     //Se deben usar las variables llamadas para que funciones dentro del metodo
@@ -36,6 +74,7 @@ public struct MyVector
         return new MyVector(x * factor, y * factor);
 
     }
+
 
     //Cuando usas static defines la variable, método o propiedad a nivel de clase y no de instancia
     //, o sea no podrás aplicar conceptos de programación orientado a objetos

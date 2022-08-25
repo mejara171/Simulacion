@@ -555,7 +555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mass: 1
   wind:
-    x: 0
+    x: 0.5
     y: 0
   gravity:
     x: 0

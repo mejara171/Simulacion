@@ -356,6 +356,7 @@
 "Assets/#2 Velocidad/Scripts/Velocity.cs"
 "Assets/#3 Forces/Scripts/Movement.cs"
 "Assets/#3 Forces/Scripts/MovementForce.cs"
+"Assets/#3 Forces/Scripts/MovementFormulas.cs"
 -langversion:9.0
 
 /deterministic
