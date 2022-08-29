@@ -59,9 +59,9 @@
     <Compile Include="Assets\#1-Interpolación y vectores\Scripts\TestingVector.cs" />
     <Compile Include="Assets\#3 Forces\Scripts\Movement.cs" />
     <Compile Include="Assets\#2 Velocidad\Scripts\Velocity.cs" />
+    <Compile Include="Assets\#3 Forces\Scripts\MovementFormulas.cs" />
     <Compile Include="Assets\#1-Interpolación y vectores\Scripts\Vector.cs" />
     <Compile Include="Assets\#3 Forces\Scripts\MovementForce.cs" />
-    <Compile Include="Assets\#3 Forces\Scripts\MovementFormulas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

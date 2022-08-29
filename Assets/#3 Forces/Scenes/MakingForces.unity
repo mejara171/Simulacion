@@ -161,7 +161,7 @@ MonoBehaviour:
     y: 0
   dampingFactor: 0.23
   gravity: -9.8
-  FrictionCoeficient: 0.5
+  FrictionCoeficient: 0.502
 --- !u!135 &204657028
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -317,7 +317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064697049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 2.31, y: -1.71, z: -11.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -360,9 +360,9 @@ MonoBehaviour:
   wind:
     x: 0
     y: 0
-  dampingFactor: 0.23
+  dampingFactor: 0.079
   gravity: -9.8
-  FrictionCoeficient: 0.9
+  FrictionCoeficient: 0.276
 --- !u!135 &1645202377
 SphereCollider:
   m_ObjectHideFlags: 0
