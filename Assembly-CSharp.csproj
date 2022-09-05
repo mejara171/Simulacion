@@ -62,6 +62,7 @@
     <Compile Include="Assets\#3 Forces\Scripts\MovementAppliedForces.cs" />
     <Compile Include="Assets\#1-Interpolación y vectores\Scripts\Vector.cs" />
     <Compile Include="Assets\#3 Forces\Scripts\MovementForce.cs" />
+    <Compile Include="Assets\#5 Gravity Atraction\Scripts\NewtonAtraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
