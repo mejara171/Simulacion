@@ -11,6 +11,10 @@ public struct MyVector
     public float x;
     public float y;
 
+    public float radius { get => x; set => x = value; }
+    public float angle { get => y; set => y = value; }
+    
+
     //Cuando se tiene un get, el valor solo se puede leer, cuando se tiene un set, además de leer, también se puede escribir
     //=> used in property is an expression body . Basically a shorter and cleaner way to write a property with only getter
     public float magnitude => Mathf.Sqrt(x * x + y * y);
@@ -56,6 +60,11 @@ public struct MyVector
         y = y / magnitudeCache;
     }
 
+    public MyVector FromPolarToCartesian()
+    {
+        return new MyVector(x * Mathf.Cos(y), x * Mathf.Sin(y));
+    }
+    
     //Se deben usar las variables llamadas para que funciones dentro del metodo
     public MyVector Sum(MyVector other)
     {

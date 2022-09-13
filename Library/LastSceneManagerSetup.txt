@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/#5 Gravity Atraction/Scenes/Gravity Atraction.unity
+- path: Assets/#6 Trigonometrics/Trigo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
