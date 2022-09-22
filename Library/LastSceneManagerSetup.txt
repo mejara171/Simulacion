@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/#6 Trigonometrics/Trigo.unity
+- path: Assets/#6 Trigonometrics/Polar.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
