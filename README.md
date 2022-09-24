@@ -18,4 +18,5 @@ Sistema de físicas a través de vectores que permite simular la gravedad, veloc
 # Ejercicio 4:
 Objeto que realiza una espiral, que rotan a la posición del mouse, siguen un objeto y aceleran hacia un objeto. 
 
-![Physics](https://user-images.githubusercontent.com/68623374/187302957-539c9a18-dd93-4097-87ff-49db87e48d32.gif)
+![Trigonometry](https://user-images.githubusercontent.com/68623374/192109573-c2953fd6-c84c-408d-8cf1-9fd3cf13d263.gif)
+
