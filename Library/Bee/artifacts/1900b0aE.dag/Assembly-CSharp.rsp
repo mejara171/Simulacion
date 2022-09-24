@@ -386,7 +386,10 @@
 "Assets/#3 Forces/Scripts/MovementAppliedForces.cs"
 "Assets/#3 Forces/Scripts/MovementForce.cs"
 "Assets/#5 Gravity Atraction/Scripts/NewtonAtraction.cs"
+"Assets/#6 Trigonometrics/Scripts/GeneralMove.cs"
 "Assets/#6 Trigonometrics/Scripts/LookAt.cs"
+"Assets/#6 Trigonometrics/Scripts/LookAtMove.cs"
+"Assets/#6 Trigonometrics/Scripts/ObjectToMousePosition.cs"
 "Assets/#6 Trigonometrics/Scripts/Polar.cs"
 -langversion:9.0
 

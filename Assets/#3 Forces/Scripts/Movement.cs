@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-  
+    public MyVector Velocity => velocity;
+
     [SerializeField] private MyVector force;
     [SerializeField] private MyVector accelaration;
     [SerializeField] private Transform target;
-    [SerializeField ]private MyVector velocity;
+    [SerializeField] private MyVector velocity;
+    [SerializeField] private bool CheckBounds = true;
 
     private MyVector position;
     private MyVector displacement;
@@ -45,7 +47,7 @@ public class Movement : MonoBehaviour
             accelaration = accelerations[(++NowAcceleration) % accelerations.Length];
         }
 
-        accelaration = target.position - transform.position;  
+        accelaration = target.position - transform.position;
     }
 
     public void Move()
@@ -54,21 +56,27 @@ public class Movement : MonoBehaviour
         //calculate displacement and new position
         position = position + velocity * (Time.fixedDeltaTime);
 
+
         //check bounds
- /*       if (position.x < -5 || position.x > 5)
+
+        if (CheckBounds)
         {
-            position.x = Mathf.Sign(position.x) * 5;
-            velocity.x = -velocity.x;
+            if (position.x < -5 || position.x > 5)
+            {
+                position.x = Mathf.Sign(position.x) * 5;
+                velocity.x = -velocity.x;
+            }
+
+            if (position.y < -5 || position.y > 5)
+            {
+                position.y = Mathf.Sign(position.y) * 5;
+                velocity.y = -velocity.y;
+            }
         }
 
-        if (position.y < -5 || position.y > 5)
-        {
-            position.y = Mathf.Sign(position.y) * 5;
-            velocity.y = -velocity.y;
-        }*/
 
 
-        
+
         //update unity object
         transform.position = position;
     }
