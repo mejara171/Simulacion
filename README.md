@@ -14,3 +14,8 @@ Velocidad y aceleración. Sistema de físicas creado con vectores que permite el
 Sistema de físicas a través de vectores que permite simular la gravedad, velocidad y aceleración de objetos en diferentes espacios.
 
 ![Physics](https://user-images.githubusercontent.com/68623374/187302957-539c9a18-dd93-4097-87ff-49db87e48d32.gif)
+
+# Ejercicio 4:
+Objeto que realiza una espiral, que rotan a la posición del mouse, siguen un objeto y aceleran hacia un objeto. 
+
+![Physics](https://user-images.githubusercontent.com/68623374/187302957-539c9a18-dd93-4097-87ff-49db87e48d32.gif)
