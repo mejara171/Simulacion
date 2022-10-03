@@ -391,6 +391,8 @@
 "Assets/#6 Trigonometrics/Scripts/LookAtMove.cs"
 "Assets/#6 Trigonometrics/Scripts/ObjectToMousePosition.cs"
 "Assets/#6 Trigonometrics/Scripts/Polar.cs"
+"Assets/#7 Oscillations/Scripts/FunctionGraph.cs"
+"Assets/#7 Oscillations/Scripts/Oscillations.cs"
 -langversion:9.0
 
 /deterministic

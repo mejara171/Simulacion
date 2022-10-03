@@ -68,6 +68,8 @@
     <Compile Include="Assets\#1-Interpolación y vectores\Scripts\Vector.cs" />
     <Compile Include="Assets\#3 Forces\Scripts\MovementForce.cs" />
     <Compile Include="Assets\#6 Trigonometrics\Scripts\ObjectToMousePosition.cs" />
+    <Compile Include="Assets\#7 Oscillations\Scripts\Oscillations.cs" />
+    <Compile Include="Assets\#7 Oscillations\Scripts\FunctionGraph.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
