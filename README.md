@@ -20,3 +20,17 @@ Objeto que realiza una espiral, que rotan a la posición del mouse, siguen un ob
 
 ![Trigonometry](https://user-images.githubusercontent.com/68623374/192109573-c2953fd6-c84c-408d-8cf1-9fd3cf13d263.gif)
 
+
+# Ejercicio 5:
+Sistema de coordenadas con diferentes objetos en la escena.
+![CoordSystem](https://user-images.githubusercontent.com/68623374/194936088-28b77a09-342e-4d19-b20f-06250deabe65.gif)
+
+
+# Ejercicio 6:
+Oscilaciones de GameObjects a través de scripts que implementan funciones de traslación en los ejes. 
+![Oscillations](https://user-images.githubusercontent.com/68623374/194936099-96004049-8911-4fae-beb3-0c77ae7743c6.gif)
+
+
+# Ejercicio 7:
+Tween de un objeto que cambia de color a medida que se acerca a un GameObject establecido como Target.  
+![Tweens](https://user-images.githubusercontent.com/68623374/194936115-afd602dc-6c00-421c-8dda-0add81cae650.gif)
