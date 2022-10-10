@@ -391,9 +391,11 @@
 "Assets/#6 Trigonometrics/Scripts/LookAtMove.cs"
 "Assets/#6 Trigonometrics/Scripts/ObjectToMousePosition.cs"
 "Assets/#6 Trigonometrics/Scripts/Polar.cs"
-"Assets/#7 Oscillations/Scripts/FunctionGraph.cs"
-"Assets/#7 Oscillations/Scripts/Oscillations.cs"
-"Assets/#8 Tweens/Scripts/Tweens.cs"
+"Assets/#7 Coord Systems/Scripts/MatrixDrawer.cs"
+"Assets/#7 Coord Systems/Scripts/MatrixExperiments.cs"
+"Assets/#8 Oscillations/Scripts/FunctionGraph.cs"
+"Assets/#8 Oscillations/Scripts/Oscillations.cs"
+"Assets/#9 Tweens/Scripts/Tweens.cs"
 -langversion:9.0
 
 /deterministic

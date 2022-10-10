@@ -58,9 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\#6 Trigonometrics\Scripts\Polar.cs" />
     <Compile Include="Assets\#1-Interpolación y vectores\Scripts\TestingVector.cs" />
-    <Compile Include="Assets\#7 Oscillations\Scripts\FunctionGraph.cs" />
+    <Compile Include="Assets\#8 Oscillations\Scripts\FunctionGraph.cs" />
     <Compile Include="Assets\#3 Forces\Scripts\Movement.cs" />
-    <Compile Include="Assets\#7 Oscillations\Scripts\Oscillations.cs" />
+    <Compile Include="Assets\#8 Oscillations\Scripts\Oscillations.cs" />
     <Compile Include="Assets\#5 Gravity Atraction\Scripts\NewtonAtraction.cs" />
     <Compile Include="Assets\#6 Trigonometrics\Scripts\GeneralMove.cs" />
     <Compile Include="Assets\#6 Trigonometrics\Scripts\LookAt.cs" />
@@ -70,7 +70,9 @@
     <Compile Include="Assets\#1-Interpolación y vectores\Scripts\Vector.cs" />
     <Compile Include="Assets\#3 Forces\Scripts\MovementForce.cs" />
     <Compile Include="Assets\#6 Trigonometrics\Scripts\ObjectToMousePosition.cs" />
-    <Compile Include="Assets\#8 Tweens\Scripts\Tweens.cs" />
+    <Compile Include="Assets\#9 Tweens\Scripts\Tweens.cs" />
+    <Compile Include="Assets\#7 Coord Systems\Scripts\MatrixDrawer.cs" />
+    <Compile Include="Assets\#7 Coord Systems\Scripts\MatrixExperiments.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
