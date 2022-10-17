@@ -34,3 +34,9 @@ Oscilaciones de GameObjects a través de scripts que implementan funciones de tr
 # Ejercicio 7:
 Tween de un objeto que cambia de color a medida que se acerca a un GameObject establecido como Target.  
 ![Tweens](https://user-images.githubusercontent.com/68623374/194936115-afd602dc-6c00-421c-8dda-0add81cae650.gif)
+
+
+# Ejercicio 8:
+Arbol generado proceduralmente a través de una cola que crea las ramas.   
+![Procedural](https://user-images.githubusercontent.com/68623374/196100015-c91bb87d-0746-4b3f-bf2e-1f356ec86aa4.gif)
+
